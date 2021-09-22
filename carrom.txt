@@ -1,0 +1,13 @@
+<div class="square1"></div>
+<div class="square2"></div>
+<div class="square3"></div>
+<div class="square4"></div>
+
+
+<style>
+  *{background:#62374e; margin:0;}
+  .square1{margin-left:50px; margin-top:50px;}
+  .square2{margin-left:200px; margin-top:50px;}
+.square3{margin-left:50px; margin-top:100px;} 
+  .square4{margin-left:200px; margin-top:50px;}
+  div{ width: 50px; height: 50px; background:#fdc57b; display:inline-block;}
