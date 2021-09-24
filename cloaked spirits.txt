@@ -1,0 +1,83 @@
+<div id="container">
+  
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="circleone"></div>
+    <div class="circletwo"></div>
+    <div class="circlethree"></div>
+  <div class="dotone"></div>
+    <div class="dottwo"></div>
+    <div class="dotthree"></div>
+   
+  </div>
+<style>
+  *{background:#62306d;}
+  #container{
+    position:absolute;
+    left:45px;
+      width:300px;
+    height:300px
+  }
+  .one{background:#f7ec7d;
+  width:33.3%;
+  height:300;
+  position:absolute;
+  top:190;}
+  .two{background:#f7ec7d;
+    width:33.3%;
+     height:300;
+  position:absolute;
+    left:33.3%;
+    top:100;
+  }
+  .three{background:#f7ec7d;
+    width:33.3%;
+     height:300; 
+   position:absolute;
+  left:66.6%;
+     top:190;
+  }
+  .circleone{background:#aa445f;
+    border-radius:50%;
+  width:33.3%;
+    height:100px;
+  position:absolute;
+  top:140;}
+  .circletwo{background:#e38f66;
+    border-radius:50%;
+    height:100px;
+  width:33.3%;
+  position:absolute;
+  left:100;
+  top:50;}
+  .circlethree{background:#aa445f;
+    border-radius:50%;
+  width:33.3%;
+    height:100px;
+  position:absolute;
+   top:140;
+  left:200;}
+  
+  .dotone{background:#e38f66;
+  width:60;
+  height:60;
+  position:absolute;
+  border-radius:50%;
+  left:20;
+  top:160;}
+  .dottwo{background:#aa445f;
+   width:60;
+  height:60;
+  position:absolute;
+  border-radius:50%;
+  left:120;
+  top:70;}
+  .dotthree{background:#e38f66;
+   width:60;
+  height:60;
+  position:absolute;
+  border-radius:50%;
+  top:160;
+  left:220}
+</style>
